@@ -38,3 +38,10 @@ if settings.DEBUG:
         re_path(r'^redoc/$', schema_view.with_ui('redoc',
                 cache_timeout=0), name='schema-redoc')
     ]
+    
+
+# 추가 해줘야 하는 것
+# project settings에
+# 'drf_yasg' 을 install app 에 추가
+# MEDIA_URL = '/media/' 아래 공간에 추가
+# MEDIA_ROOT = os.path.join(BASE_URL, 'media') 아래 공간에 추가
