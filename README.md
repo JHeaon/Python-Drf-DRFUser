@@ -1,9 +1,4 @@
 ## IMPLEMENT_DRFUser 소개 
-
-<br>
-
-### 🖐️ 안녕하세요 해당 repository 에 대해 소개드릴 JHeaon 입니다. 
-
 <br>
 
 해당 리포지토리는 Django Rest Framework 의 User 회원가입/로그인을 구현한 리포지토리 입니다. 
